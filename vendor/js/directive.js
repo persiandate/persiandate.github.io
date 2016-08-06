@@ -1,5 +1,4 @@
 
-
   myApp.directive('script', function() {
     return {
       restrict: 'E',

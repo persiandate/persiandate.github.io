@@ -1,23 +1,21 @@
 <!DOCTYPE html>
 <html ng-app="myApp">
 <head>
-    <link rel="shortcut icon" href="/vendor/img/favicon.png"/>
+    <link rel="shortcut icon" href="./vendor/img/favicon.png"/>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <meta name="description" content="javascript,datepicker,date,persian,calendar">
     <meta name="keyword"
           content="persian,datepicker,date,khayam,jalali,reza,babakhani,jquery,plugin,javascript,js,persian web toolkit,pwt"/>
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans"/>
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/vendor/css/menu.css">
-    <link rel="stylesheet" href="/vendor/css/pygment_trac.css">
-    <link rel="stylesheet" href="/vendor/css/pages.css">
-    <link rel="stylesheet" href="/vendor/css/over-bootstrap.css">
-    <script src="/vendor/js/jquery.js"></script>
-    <script src="/vendor/js/pwt-date.js"></script>
-    <script src="/vendor/js/persian-datepicker.js"></script>
-    <link rel="stylesheet"
-          href="//rawgithub.com/babakhani/pwt.datepicker/Develop/dist/css/persian-datepicker-0.3.6.min.css">
-    <script src="/vendor/js/angular.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./vendor/css/menu.css">
+    <link rel="stylesheet" href="./vendor/css/pygment_trac.css">
+    <link rel="stylesheet" href="./vendor/css/pages.css">
+    <link rel="stylesheet" href="./vendor/css/over-bootstrap.css">
+    <script src="./vendor/js/jquery.js"></script>
+    <script src="./vendor/js/pwt-date.js"></script>
+    <script src="./vendor/js/persian-datepicker.js"></script>
+    <script src="./vendor/js/angular.js"></script>
 </head>
 <body><!-- Fixed navbar -->
 
@@ -26,7 +24,7 @@
     <div class="board-box no-margin primary">
         <div class="container">
             <div class="jumbotron center-text">
-                <h1>Persian Web Toolkit</h1>
+                <h1>Persian Date</h1>
 
                 <p>
                     Some Ui Tools Compatible With Persian Layout And
@@ -35,7 +33,7 @@
                 </p>
 
                 <p class="transparent text-small">
-                    Persian Web Toolkit is freely distributable under the terms of the MIT license.
+                    Persian Date is freely distributable under the terms of the MIT license.
                 </p>
 
             </div>
@@ -45,92 +43,53 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-md-4 product-box">
+
+            <div class="col-md-6 product-box">
                 <div class="container-fluid">
-                    <img class="center-block" src="/vendor/img/project/persian-date.png"/>
+                    <a href="./doc/core">
+                        <img class="center-block" src="./vendor/img/project/persian-date.png"/>
+                    </a>
                 </div>
                 <div class="container-fluid">
-                    <h1>Persian Date </h1>
-                    <span class="label label-success">Version 0.1.8</span>
-
+                    <h1>Persian Date Core</h1>
                     <p class="description">
                         javascript date library for parsing, validating, manipulating, and formatting persian dates
                         System.
                     </p>
                     <a class="btn btn-default github-link"
-                       href="https://github.com/babakhani/PersianDate">Github</a>
-                    <a class="btn btn-primary" href="/doc/persiandate/">Document</a>
+                       href="https://github.com/persiandate/core" target="_blank">Github</a>
+                    <a class="btn btn-primary" href="./doc/core">Documentation</a>
                 </div>
             </div>
-            <div class="col-md-4 product-box">
+
+
+            <div class="col-md-6 product-box">
                 <div class="container-fluid">
-                    <img class="center-block" src="/vendor/img/project/datepicker.png"/>
+                    <a href="./doc/picker">
+                        <img class="center-block" src="./vendor/img/project/datepicker.png"/>
+                    </a>
                 </div>
                 <div class="container-fluid">
                     <h1>Persian Date/Time Picker</h1>
-                    <span class="label label-success">Version 0.4.5</span>
 
                     <p class="description">
                         jQuery datepicker plugin work with Iranian calendar.
                     </p>
                     <a class="btn btn-default  github-link"
-                       href="https://github.com/babakhani/pwt.datepicker">Github</a>
-                    <a class="btn btn-primary" href="/doc/datepicker/">Document</a>
+                       href="https://github.com/persiandate/picker" target="_blank">Github</a>
+                    <a class="btn btn-primary" href="./doc/picker">Documentation</a>
                 </div>
             </div>
-            <div class="col-md-4 product-box">
-                <div class="container-fluid">
-                    <img class="center-block" src="/vendor/img/project/persian-calheatmap.png"/>
-                </div>
-                <div class="container-fluid">
-                    <h1>Persian Heat chart</h1>
-                    <span class="label label-warning">Alpha Version 0.0.1</span>
 
-                    <p class="description">
-                        Persian Heat chart.
-                        A heat map is a graphical representation of data where the individual values contained in a
-                        matrix
-                        are represented as colors.
-                    </p>
-                    <a class="btn btn-default  github-link"
-                       href="https://github.com/babakhani/pwt.calheatmap">Github</a>
-                    <a class="btn btn-primary" href="http://htmlpreview.github.io/?https://github.com/babakhani/pwt.calheatmap/blob/master/src/index.html">Demo</a>
-                </div>
-            </div>
         </div>
 
-        <!--<div class="row">-->
-        <!--<div class="container">-->
-        <!--<h3 class="text-center h3 text-muted">Meet the team</h3>-->
-        <!--<div class="row">-->
-        <!--<div class="col-md-6 ">-->
-        <!--<div class="team-item">-->
-        <!--<div class="avatar">-->
-        <!--<img src="https://avatars0.githubusercontent.com/u/3070333?v=3&s=460" alt="..."-->
-        <!--class="img-circle">-->
-        <!--</div>-->
-        <!--<h6><a href="github.com/babakhani">Reza babakhani</a></h6>-->
-        <!--</div>-->
-        <!--</div>-->
-        <!--<div class="col-md-6">-->
-        <!--<div class="team-item">-->
-        <!--<div class="avatar">-->
-        <!--<img src="https://avatars3.githubusercontent.com/u/1302253?v=3&s=460" alt="..."-->
-        <!--class="img-circle">-->
-        <!--</div>-->
-        <!--<h6><a href="github.com/pylover">Pylover</a></h6>-->
-        <!--</div>-->
-        <!--</div>-->
-        <!--</div>-->
-        <!--</div>-->
-        <!--</div>-->
     </div>
     <div class="board-box">
         <h3 class="h3 text-muted text-center ">Join, contribute</h3>
 
         <div class="container text-center ">
             <p>
-                So you really like "Persian Web Toolkit" and are eager to help? You can contribute in various ways.
+                So you really like this project and are eager to help? You can contribute in various ways.
                 <br/>
                 Fork project from github and join contributor
             </p>
@@ -140,13 +99,4 @@
 <div id="footer_wrap" class="outer"></div>
 <div ng-include="'/include/footer.html'"></div>
 </body>
-<script type="text/javascript">
-    var myApp = angular.module('myApp', [])
-    myApp.controller('myController', function ($scope) {
-        $scope.version = "0.3.7";
-        $scope.volume = '1.1 mb'
-        $scope.downloadUrl = 'https://github.com/babakhani/pwt.datepicker/archive/0.3.6.zip';
-        $scope.demoUrl = '/doc/datepicker/0.3.6/demo.html';
-    });
-</script>
 </html>

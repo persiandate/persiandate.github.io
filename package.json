@@ -1,8 +1,8 @@
 {
-    "name": "persian-web-toolkit",
-    "version": "0.3.3",
-    "datepickerVersion": "0.3.6",
-    "persiandateVersion": "0.1.8",
+    "name": "persiandate",
+    "version": "0.4.0",
+    "datepickerVersion": "0.5.0",
+    "persiandateVersion": "0.2.0",
     "devDependencies": {
         "grunt": "0.4.4",
         "grunt-cli": "0.1.13",
